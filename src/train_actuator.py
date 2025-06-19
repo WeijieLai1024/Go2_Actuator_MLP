@@ -9,7 +9,7 @@ from tqdm    import tqdm
 def parse():
     p = argparse.ArgumentParser()
     p.add_argument('--csv', required=True)
-    p.add_argument('--hist', type=int, default=4)
+    p.add_argument('--hist', type=int, default=3)
     p.add_argument('--epochs', type=int, default=50)
     p.add_argument('--batch', type=int, default=4096)
     p.add_argument('--lr',    type=float, default=1e-3)
